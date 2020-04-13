@@ -12,6 +12,7 @@
         <module>junit</module>
         <module>testng</module>
         <module>model</module>
+        <module>owner</module>
     </modules>
 
 
