@@ -38,6 +38,11 @@ public class SampleTest {
     }
 
     @Test
+    public void changesForGitLesson(){
+        System.out.println("lol");
+    }
+
+    @Test
     public void lesson(){
         driver.get("https://ng-bootstrap.github.io/#/components/alert/examples");
         WebElement button = driver.findElement(new By.ByLinkText("Change message"));
